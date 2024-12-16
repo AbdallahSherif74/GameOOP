@@ -1,0 +1,45 @@
+*{
+  color: white ;
+}
+body{
+    background-color: #272B30;
+}
+.wrapper{
+    background: url(../images/wraper.png), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+  
+
+}
+.nav-bg{
+    background-color: #3A497B;
+    transform: translateY(-50%);
+    top:5%
+}
+
+.nav-link{
+    color: white;
+}
+.nav-item a:hover{
+    color: aqua;
+}
+.column{
+    cursor:pointer;
+    opacity: 50%;
+    transition: all 0.5s;
+}
+span{
+    font-size: 13px;
+}
+#X_btn{
+    cursor: pointer;
+}
+.column:hover {
+    transform: scale(1.025);
+    opacity: 100%;
+}
+.fixedHeight{
+    height: 130px;
+}
